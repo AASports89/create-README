@@ -1,0 +1,23 @@
+{
+  "name": "create-readme-pro",
+  "version": "1.0.0",
+  "description": "An application used to generate high quality README docs for developers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AASports89/create-README.git"
+  },
+  "keywords": [],
+  "author": "aasports89",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AASports89/create-README/issues"
+  },
+  "homepage": "https://github.com/AASports89/create-README#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
+}
