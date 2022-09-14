@@ -82,7 +82,7 @@
 //QUESTION #6: CONTRIBUTIONS//
 {
   type: "input",
-  name: "contributions",
+  name: "contribution",
   message: "Enter your contributions for this project (Required)",
   validate: (nameInput) => {
     if (nameInput) {

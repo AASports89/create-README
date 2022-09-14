@@ -13,12 +13,6 @@
     if (data.license === "MIT") {
     data.licenseBadge = "MIT";
     }
-    if (data.license === "MPL-2.0") {
-    data.licenseBadge = "MPL-2.0"
-    }
-    if (data.license === "UNLICENSE") {
-    data.licenseBadge = "UNLICENSE"
-    }
     else {
     "";
     }
@@ -35,12 +29,6 @@
     }
     if (data.license === "MIT") {
     data.licenseLink = "mit";
-    }
-    if (data.license === "MPL-2.0") {
-    data.licenseLink = "mpl-2.0";
-    }
-    if (data.license === "UNLICENSE") {
-    data.licenseLink = "unlicense";
     }
     else {
     "";
@@ -71,10 +59,10 @@
   * [Description](#description)
   * [Installation](#installation)
   * [Usage](#usage)
-  * [Images](#images)
+  * [Images GIFs](#images-gifs)
   * [Contribution](#contribution)
-  * [Deployed Webpage URL](#deployedwebpageurl)
-  * [GitHUB Repository](#githubrepository)
+  * [Deployed Webpage URL](#deployed-webpage-url)
+  * [GitHUB Repository](#github-repository)
   * [Tests](#tests)
   * [License](#license)
   * [Contact Info](#contactinfo)
@@ -87,13 +75,15 @@
   ---
   ${data.usage}
   
-  ## Image(s) & GIF(s)
+  ## Images GIFs
   ---
   > **Note:** The following image(s) depict the functionality and look of my project:
+
   ${data.images}
 
   ## Contribution
-  ${data.contributions}
+  ---
+  ${data.contribution}
   
   ## Deployed Webpage URL
   ---
@@ -113,9 +103,9 @@
   
   ## Contact Info
   ---
-  **Note:** Any Questions? 
-  * Please visit my deployed URL ${data.deployedURL}
-  * Additionally, you can view the source code for this project and others @ https://github/${data.github}
+  > **Note:** Any Questions? 
+  > * Please visit my deployed URL ${data.deployedURL}
+  > * Additionally, you can view the source code for this project and others @ https://github/${data.github}
 
 ---
 ---
