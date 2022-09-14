@@ -14,10 +14,10 @@
     data.licenseBadge = "MIT";
     }
     if (data.license === "MPL-2.0") {
-    data.licenseBadge ==="MPL-2.0"
+    data.licenseBadge = "MPL-2.0"
     }
     if (data.license === "UNLICENSE") {
-    data.licenseBadge ==="UNLICENSE"
+    data.licenseBadge = "UNLICENSE"
     }
     else {
     "";
@@ -60,8 +60,6 @@
   function generateREADME(data) {
   return `
   # ${data.title}
-  ---
-  ---
 
   ## Description
   ---
@@ -79,7 +77,7 @@
   * [GitHUB Repository](#githubrepository)
   * [Tests](#tests)
   * [License](#license)
-  * [Contact Info]](#contactinfo)
+  * [Contact Info](#contactinfo)
   
   ## Installation
   ----
@@ -91,7 +89,7 @@
   
   ## Image(s) & GIF(s)
   ---
-  **Note:** The following image(s) depict the functionality and look of my project:
+  > **Note:** The following image(s) depict the functionality and look of my project:
   ${data.images}
 
   ## Contribution

@@ -23,8 +23,6 @@
   * [Demo Video](#demo-video)
   * [GitHUB Repository](#github-repository)
   * [Evaluation Guideline](#evaluation-guideline)
-  * [License](#license)
-  * [Questions](#questions)
 
 ## User Story
 
@@ -58,19 +56,23 @@ THEN I am taken to the corresponding section of the README
 
   ## Installation
   ----
-```
+
 Install and run this application by entering the following cmd lines in terminal:
-
+```
  'install npm'
-
+```
+ -followed by-
+```
+ 'npm i inquirer@8.2.4
+```
  -followed by- 
-
+```
  'node index.js' 
 ```
   
   ## Demo Video
   ---
-  **Note:** The following link will display a video which depicts the functionality of the **'create-README'** tool:
+  > **Note:** The following link will display a video which depicts the functionality of the **'create-README'** tool:
 
   <img src=./Devlp/images/testimg.jpg>
 
@@ -115,17 +117,6 @@ Install and run this application by entering the following cmd lines in terminal
 * Repository contains multiple descriptive commit messages.
 
 * Repository contains a high-quality README with description and a link to walkthrough video.
-
-
-## Review
-
-You are required to submit the following for review:
-
-* A walkthrough video demonstrating the functionality of the application.
-
-* A sample README.md file for a project repository generated using your application
-
-* The URL of the GitHub repository, with a unique name and a README describing the project
 
 ---
 ---
