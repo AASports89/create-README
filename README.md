@@ -20,7 +20,7 @@
   * [User Story](#user-story)
   * [Acceptance Criteria](#acceptance-criteria)
   * [Installation](#installation)
-  * [Demo Video](#demo-video)
+  * [Video Walkthrough](#video-walkthrough)
   * [GitHUB Repository](#github-repository)
   * [Evaluation Guideline](#evaluation-guideline)
 
@@ -63,18 +63,18 @@ Install and run this application by entering the following cmd lines in terminal
 ```
  -followed by-
 ```
- 'npm i inquirer@8.2.4
+ 'npm i inquirer@8.2.4'
 ```
  -followed by- 
 ```
  'node index.js' 
 ```
   
-  ## Demo Video
+  ## Video Walkthrough
   ---
   > **Note:** The following link will display a video which depicts the functionality of the **'create-README'** tool:
 
-  <img src=./Devlp/images/testimg.jpg>
+  https://aasports89.github.io/create-README/
 
   ## GitHUB Repository
   ---
