@@ -69,7 +69,7 @@
     {
       type: "input",
       name: "images",
-      message: "Attach any .jpg/.png/.gif files displaying project by copying '<img src=./Devlp/images/#.jpg/png/gif>' in the response area (Recommended)",
+      message: "Attach any .jpg/.png/.gif files displaying project by copying '<img src=./Develop/images/#.jpg/png/gif>' in the response area (Recommended)",
       validate: (nameInput) => {
         if (nameInput) {
           return true;

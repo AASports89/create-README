@@ -31,7 +31,7 @@
   ---
   > **Note:** The following image(s) depict the functionality and look of my project:
 
-  <img src=./Devlp/images/testimg.jpg>
+  <img src=./Develop/images/testimg.jpg>
 
   ## Contribution
   ---
@@ -57,7 +57,7 @@
   ---
   > **Note:** Any Questions? 
   > * Please visit my deployed URL www.deployedURL.com
-  >* Additionally, you can view the source code for this project and others @ https://github/https://github.com/AASports89/create-README
+  >* Additionally, you can view the source code for this project and others @ https://github.com/AASports89/create-README
 
 ---
 ---
