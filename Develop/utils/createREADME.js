@@ -10,8 +10,17 @@
     if (data.license === "GPL-3.0") {
     data.licenseBadge = "GPLv3";
     }
+    if (data.license === "ISC") {
+      data.licenseBadge = "ISC";
+    }
     if (data.license === "MIT") {
-    data.licenseBadge = "MIT";
+      data.licenseBadge = "MIT";
+    }
+    if (data.license === "MS-PL") {
+    data.licenseBadge = "MS-PL";
+    }
+    if (data.license === "UNLICENSE") {
+      data.licenseBadge = "UNLICENSE";
     }
     else {
     "";
@@ -27,8 +36,17 @@
     if (data.license === "GPL-3.0") {
     data.licenseLink = "gpl-3.0";
     }
+    if (data.license === "ISC") {
+      data.licenseLink = "isc";
+    }
     if (data.license === "MIT") {
-    data.licenseLink = "mit";
+      data.licenseLink = "mit";
+    }
+    if (data.license === "MS-PL") {
+    data.licenseLink = "ms-pl";
+    }
+    if (data.license === "UNLICENSE") {
+      data.licenseLink = "unlicense";
     }
     else {
     "";

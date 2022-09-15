@@ -140,7 +140,7 @@
       type: "list",
       name: "license",
       message: "Choose a software license for this project (Required)",
-      choices: ["MIT", "AGPL-3.0", "GPL-3.0", "N/A"],
+      choices: ["AGPL-3.0", "GPL-3.0", "ISC", "MS-PL", "MIT", "UNLICENSE", "N/A"],
       validate: (nameInput) => {
         if (nameInput) {
           return true;
