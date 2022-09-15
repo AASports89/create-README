@@ -1,7 +1,7 @@
 //************************* PACKAGES REQUIRED FOR THIS APP ************************//
   const inquirer = require("inquirer");
   const fs = require("fs");
-  const {writeFile} = require("./Devlp/createREADME");
+  const {writeFile} = require("./Develop/utils/createREADME");
 
 //************************** ARRAY OF QUESTIONS FOR USERS *************************//
   const promptUser = () => {
