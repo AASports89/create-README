@@ -123,7 +123,7 @@
   ---
   > **Note:** Any Questions? 
   > * Please visit my deployed URL ${data.deployedURL}
-  > * Additionally, you can view the source code for this project and others @ https://github/${data.github}
+  > * Additionally, you can view the source code for this project and others @${data.github}
 
 ---
 ---

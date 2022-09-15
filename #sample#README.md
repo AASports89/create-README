@@ -3,7 +3,7 @@
 
   ## Description
   ---
-  A tool developed using dynamic Javascript with dependency on Inquirer v8.2.4
+  A file generator tool developed using dynamic JavaScript with a json package and a dependency on Inquirer v8.2.4
   
   ## Table of Contents
   ---
@@ -21,11 +21,11 @@
   
   ## Installation
   ----
-  Clone source from GitHUB repository @https://github.com/AASports89/create-README, then open repo file in VSCode. Next, enter 'install npm' followed by 'npm i inquirer@8.2.4' followed by node index.js in terminal within VSCode to install & run **'create-README'**.
+  Begin by cloning the source code from the GitHUB repository @https://github.com/AASports89/create-README and open the repo file in VSCode. Then, install and run the source code by entering 'npm install' followed by 'npm i inquirer@8.2.4' followed by 'node index.js' in terminal.
 
   ## Usage
   ---
-  **'create-README'** is a tool which allows users to create high quality README files for developer projects.
+  **'create-README'** is a file generator used to create high quality README files by users quickly and efficiently for developer projects & applications.
   
   ## Images GIFs
   ---
@@ -35,11 +35,11 @@
 
   ## Contribution
   ---
-  Completed JavaScript code, templates, and file pathways needed for tool functionality.
+  Created the jscript files, pathways, README, and walkthrough video.
   
   ## Deployed Webpage URL
   ---
-  www.deployedURL.com
+  https://aasports89.github.io/create-README/
 
   ## GitHUB Repository
   ---
@@ -51,13 +51,13 @@
 
   ## License
   ---
-  AGPL-3.0
+  ISC
   
   ## Contact Info
   ---
   > **Note:** Any Questions? 
-  > * Please visit my deployed URL www.deployedURL.com
-  >* Additionally, you can view the source code for this project and others @ https://github.com/AASports89/create-README
+  > * Please visit my deployed URL https://aasports89.github.io/create-README/
+  > * Additionally, you can view the source code for this project and others @https://github.com/AASports89/create-README
 
 ---
 ---
