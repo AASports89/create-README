@@ -11,7 +11,7 @@
   * how to report issues 
   * how to make contributions
 
-**'create-README'** is a tool developed using dynamic JavaScript and utilizing Inquirer v.8.2.4 as a dependency. It allows a user can quickly and easily generate a high quality README file by using a command-line application to generate one. Overall, **'create-README'** provides a user the ability to focus more time on their project as opposed to creating a high quality README.
+**'create-README'** is a tool developed using dynamic JavaScript and utilizing Inquirer v.8.2.4 as a dependency. It allows a user to easily and efficiently generate a high quality README file by using a command-line application to generate one. Overall, **'create-README'** provides a user the ability to focus more time on their project as opposed to creating a high quality README.
 
   ## Table of Contents
   ---
