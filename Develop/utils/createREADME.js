@@ -1,71 +1,14 @@
 //******************************************************** GENERATE FILE *****************************************************//
-  const fs = require('fs'); 
-
-//FUNCTION - RETURNS A LICENSE BADGE - BASED ON THE LICENSE RETURNED//
-//NO LICENSE = EMPTY STRING//
-  function renderLicenseBadge(license) {
-    if (data.license === "AGPL-3.0") {
-    data.licenseBadge = "AGPL_v3";
-    }
-    if (data.license === "GPL-3.0") {
-    data.licenseBadge = "GPLv3";
-    }
-    if (data.license === "ISC") {
-      data.licenseBadge = "ISC";
-    }
-    if (data.license === "MIT") {
-      data.licenseBadge = "MIT";
-    }
-    if (data.license === "MS-PL") {
-    data.licenseBadge = "MS-PL";
-    }
-    if (data.license === "UNLICENSE") {
-      data.licenseBadge = "UNLICENSE";
-    }
-    else {
-    "";
-    }
-  } 
-
-//FUNCTION - RETURNS LICENSE LINK//
-//NO LICENSE = EMPTY STRING//
-  function renderLicenseLink(license) {
-    if (data.license === "AGPL-3.0") {
-    data.licenseLink = "agpl-3.0";
-    }
-    if (data.license === "GPL-3.0") {
-    data.licenseLink = "gpl-3.0";
-    }
-    if (data.license === "ISC") {
-      data.licenseLink = "isc";
-    }
-    if (data.license === "MIT") {
-      data.licenseLink = "mit";
-    }
-    if (data.license === "MS-PL") {
-    data.licenseLink = "ms-pl";
-    }
-    if (data.license === "UNLICENSE") {
-      data.licenseLink = "unlicense";
-    }
-    else {
-    "";
-    }
-  }
-
-//FUNCTION - RETURNS LICENSE SECTION - README//
-//NO LICENSE = EMPTY STRING//
-  function renderLicenseSection(license) {
-    if (!data.license) {
-    "";
-    }
-  }
+  const fs = require('fs');
 
 //INTERPOL VARIABLES - ${<VARIABLES>} SYNTAX//
 //FUNCTION - CREATE README//
   function generateREADME(data) {
   return `
   # ${data.title}
+  ---
+
+  ${data.badge}
 
   ## Description
   ---
@@ -73,7 +16,7 @@
   
   ## Table of Contents
   ---
-
+  
   * [Description](#description)
   * [Installation](#installation)
   * [Usage](#usage)
